@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA476F4A2731327E003085C6 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA476F492731327E003085C6 /* SearchController.swift */; };
+		FA60278627325DB60013F931 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60278527325DB60013F931 /* BaseViewController.swift */; };
+		FA602788273270F30013F931 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA602787273270F30013F931 /* SearchViewController.swift */; };
+		FA60278C2733A0E70013F931 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60278B2733A0E70013F931 /* SearchTableViewCell.swift */; };
+		FACE68A3272BC7FF0091AF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68A2272BC7FF0091AF5D /* AppDelegate.swift */; };
+		FACE68A5272BC7FF0091AF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68A4272BC7FF0091AF5D /* SceneDelegate.swift */; };
+		FACE68AA272BC7FF0091AF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACE68A8272BC7FF0091AF5D /* Main.storyboard */; };
+		FACE68AC272BC8000091AF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACE68AB272BC8000091AF5D /* Assets.xcassets */; };
+		FACE68AF272BC8000091AF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACE68AD272BC8000091AF5D /* LaunchScreen.storyboard */; };
+		FACE68BA272BC8000091AF5D /* SendBird_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68B9272BC8000091AF5D /* SendBird_iOSTests.swift */; };
+		FACE68C4272BC8000091AF5D /* SendBird_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68C3272BC8000091AF5D /* SendBird_iOSUITests.swift */; };
+		FACE68C6272BC8000091AF5D /* SendBird_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68C5272BC8000091AF5D /* SendBird_iOSUITestsLaunchTests.swift */; };
+		FACE68DD272BCDD60091AF5D /* SearchBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68DC272BCDD60091AF5D /* SearchBook.swift */; };
+		FACE68DF272BCDE70091AF5D /* Uri.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68DE272BCDE70091AF5D /* Uri.swift */; };
+		FACE68E1272BCE9D0091AF5D /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68E0272BCE9D0091AF5D /* SplashController.swift */; };
+		FACE68E3272BCEA60091AF5D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68E2272BCEA60091AF5D /* MainViewController.swift */; };
+		FACE68E5272BCEAB0091AF5D /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE68E4272BCEAB0091AF5D /* LaunchController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACE68B6272BC8000091AF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACE6897272BC7FF0091AF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACE689E272BC7FF0091AF5D;
+			remoteInfo = SendBird_iOS;
+		};
+		FACE68C0272BC8000091AF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACE6897272BC7FF0091AF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACE689E272BC7FF0091AF5D;
+			remoteInfo = SendBird_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA476F492731327E003085C6 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		FA60278527325DB60013F931 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FA602787273270F30013F931 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FA60278B2733A0E70013F931 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		FACE689F272BC7FF0091AF5D /* SendBird_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendBird_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE68A2272BC7FF0091AF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACE68A4272BC7FF0091AF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FACE68A9272BC7FF0091AF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACE68AB272BC8000091AF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACE68AE272BC8000091AF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACE68B0272BC8000091AF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACE68B5272BC8000091AF5D /* SendBird_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendBird_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE68B9272BC8000091AF5D /* SendBird_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBird_iOSTests.swift; sourceTree = "<group>"; };
+		FACE68BF272BC8000091AF5D /* SendBird_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendBird_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE68C3272BC8000091AF5D /* SendBird_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBird_iOSUITests.swift; sourceTree = "<group>"; };
+		FACE68C5272BC8000091AF5D /* SendBird_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBird_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FACE68DC272BCDD60091AF5D /* SearchBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBook.swift; sourceTree = "<group>"; };
+		FACE68DE272BCDE70091AF5D /* Uri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uri.swift; sourceTree = "<group>"; };
+		FACE68E0272BCE9D0091AF5D /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		FACE68E2272BCEA60091AF5D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FACE68E4272BCEAB0091AF5D /* LaunchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACE689C272BC7FF0091AF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE68B2272BC8000091AF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE68BC272BC8000091AF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACE6896272BC7FF0091AF5D = {
+			isa = PBXGroup;
+			children = (
+				FACE68A1272BC7FF0091AF5D /* SendBird_iOS */,
+				FACE68B8272BC8000091AF5D /* SendBird_iOSTests */,
+				FACE68C2272BC8000091AF5D /* SendBird_iOSUITests */,
+				FACE68A0272BC7FF0091AF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACE68A0272BC7FF0091AF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACE689F272BC7FF0091AF5D /* SendBird_iOS.app */,
+				FACE68B5272BC8000091AF5D /* SendBird_iOSTests.xctest */,
+				FACE68BF272BC8000091AF5D /* SendBird_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACE68A1272BC7FF0091AF5D /* SendBird_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FACE68E4272BCEAB0091AF5D /* LaunchController.swift */,
+				FACE68E2272BCEA60091AF5D /* MainViewController.swift */,
+				FACE68E0272BCE9D0091AF5D /* SplashController.swift */,
+				FACE68A2272BC7FF0091AF5D /* AppDelegate.swift */,
+				FACE68A4272BC7FF0091AF5D /* SceneDelegate.swift */,
+				FACE68A8272BC7FF0091AF5D /* Main.storyboard */,
+				FACE68AB272BC8000091AF5D /* Assets.xcassets */,
+				FACE68AD272BC8000091AF5D /* LaunchScreen.storyboard */,
+				FACE68B0272BC8000091AF5D /* Info.plist */,
+				FACE68DC272BCDD60091AF5D /* SearchBook.swift */,
+				FACE68DE272BCDE70091AF5D /* Uri.swift */,
+				FA476F492731327E003085C6 /* SearchController.swift */,
+				FA60278527325DB60013F931 /* BaseViewController.swift */,
+				FA602787273270F30013F931 /* SearchViewController.swift */,
+				FA60278B2733A0E70013F931 /* SearchTableViewCell.swift */,
+			);
+			path = SendBird_iOS;
+			sourceTree = "<group>";
+		};
+		FACE68B8272BC8000091AF5D /* SendBird_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACE68B9272BC8000091AF5D /* SendBird_iOSTests.swift */,
+			);
+			path = SendBird_iOSTests;
+			sourceTree = "<group>";
+		};
+		FACE68C2272BC8000091AF5D /* SendBird_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACE68C3272BC8000091AF5D /* SendBird_iOSUITests.swift */,
+				FACE68C5272BC8000091AF5D /* SendBird_iOSUITestsLaunchTests.swift */,
+			);
+			path = SendBird_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACE689E272BC7FF0091AF5D /* SendBird_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE68C9272BC8000091AF5D /* Build configuration list for PBXNativeTarget "SendBird_iOS" */;
+			buildPhases = (
+				FACE689B272BC7FF0091AF5D /* Sources */,
+				FACE689C272BC7FF0091AF5D /* Frameworks */,
+				FACE689D272BC7FF0091AF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendBird_iOS;
+			productName = SendBird_iOS;
+			productReference = FACE689F272BC7FF0091AF5D /* SendBird_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACE68B4272BC8000091AF5D /* SendBird_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE68CC272BC8000091AF5D /* Build configuration list for PBXNativeTarget "SendBird_iOSTests" */;
+			buildPhases = (
+				FACE68B1272BC8000091AF5D /* Sources */,
+				FACE68B2272BC8000091AF5D /* Frameworks */,
+				FACE68B3272BC8000091AF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACE68B7272BC8000091AF5D /* PBXTargetDependency */,
+			);
+			name = SendBird_iOSTests;
+			productName = SendBird_iOSTests;
+			productReference = FACE68B5272BC8000091AF5D /* SendBird_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACE68BE272BC8000091AF5D /* SendBird_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE68CF272BC8000091AF5D /* Build configuration list for PBXNativeTarget "SendBird_iOSUITests" */;
+			buildPhases = (
+				FACE68BB272BC8000091AF5D /* Sources */,
+				FACE68BC272BC8000091AF5D /* Frameworks */,
+				FACE68BD272BC8000091AF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACE68C1272BC8000091AF5D /* PBXTargetDependency */,
+			);
+			name = SendBird_iOSUITests;
+			productName = SendBird_iOSUITests;
+			productReference = FACE68BF272BC8000091AF5D /* SendBird_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACE6897272BC7FF0091AF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FACE689E272BC7FF0091AF5D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FACE68B4272BC8000091AF5D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FACE689E272BC7FF0091AF5D;
+					};
+					FACE68BE272BC8000091AF5D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FACE689E272BC7FF0091AF5D;
+					};
+				};
+			};
+			buildConfigurationList = FACE689A272BC7FF0091AF5D /* Build configuration list for PBXProject "SendBird_iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACE6896272BC7FF0091AF5D;
+			productRefGroup = FACE68A0272BC7FF0091AF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACE689E272BC7FF0091AF5D /* SendBird_iOS */,
+				FACE68B4272BC8000091AF5D /* SendBird_iOSTests */,
+				FACE68BE272BC8000091AF5D /* SendBird_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACE689D272BC7FF0091AF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE68AF272BC8000091AF5D /* LaunchScreen.storyboard in Resources */,
+				FACE68AC272BC8000091AF5D /* Assets.xcassets in Resources */,
+				FACE68AA272BC7FF0091AF5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE68B3272BC8000091AF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE68BD272BC8000091AF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACE689B272BC7FF0091AF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA602788273270F30013F931 /* SearchViewController.swift in Sources */,
+				FACE68E1272BCE9D0091AF5D /* SplashController.swift in Sources */,
+				FACE68DD272BCDD60091AF5D /* SearchBook.swift in Sources */,
+				FACE68DF272BCDE70091AF5D /* Uri.swift in Sources */,
+				FA60278C2733A0E70013F931 /* SearchTableViewCell.swift in Sources */,
+				FA476F4A2731327E003085C6 /* SearchController.swift in Sources */,
+				FA60278627325DB60013F931 /* BaseViewController.swift in Sources */,
+				FACE68A3272BC7FF0091AF5D /* AppDelegate.swift in Sources */,
+				FACE68A5272BC7FF0091AF5D /* SceneDelegate.swift in Sources */,
+				FACE68E5272BCEAB0091AF5D /* LaunchController.swift in Sources */,
+				FACE68E3272BCEA60091AF5D /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE68B1272BC8000091AF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE68BA272BC8000091AF5D /* SendBird_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE68BB272BC8000091AF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE68C4272BC8000091AF5D /* SendBird_iOSUITests.swift in Sources */,
+				FACE68C6272BC8000091AF5D /* SendBird_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACE68B7272BC8000091AF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACE689E272BC7FF0091AF5D /* SendBird_iOS */;
+			targetProxy = FACE68B6272BC8000091AF5D /* PBXContainerItemProxy */;
+		};
+		FACE68C1272BC8000091AF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACE689E272BC7FF0091AF5D /* SendBird_iOS */;
+			targetProxy = FACE68C0272BC8000091AF5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACE68A8272BC7FF0091AF5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACE68A9272BC7FF0091AF5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACE68AD272BC8000091AF5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACE68AE272BC8000091AF5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACE68C7272BC8000091AF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACE68C8272BC8000091AF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACE68CA272BC8000091AF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM87JGKM5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendBird_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giyeongum.SendBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACE68CB272BC8000091AF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM87JGKM5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendBird_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giyeongum.SendBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FACE68CD272BC8000091AF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM87JGKM5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giyeongum.SendBird-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendBird_iOS.app/SendBird_iOS";
+			};
+			name = Debug;
+		};
+		FACE68CE272BC8000091AF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM87JGKM5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giyeongum.SendBird-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendBird_iOS.app/SendBird_iOS";
+			};
+			name = Release;
+		};
+		FACE68D0272BC8000091AF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM87JGKM5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giyeongum.SendBird-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendBird_iOS;
+			};
+			name = Debug;
+		};
+		FACE68D1272BC8000091AF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM87JGKM5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giyeongum.SendBird-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendBird_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACE689A272BC7FF0091AF5D /* Build configuration list for PBXProject "SendBird_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE68C7272BC8000091AF5D /* Debug */,
+				FACE68C8272BC8000091AF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACE68C9272BC8000091AF5D /* Build configuration list for PBXNativeTarget "SendBird_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE68CA272BC8000091AF5D /* Debug */,
+				FACE68CB272BC8000091AF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACE68CC272BC8000091AF5D /* Build configuration list for PBXNativeTarget "SendBird_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE68CD272BC8000091AF5D /* Debug */,
+				FACE68CE272BC8000091AF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACE68CF272BC8000091AF5D /* Build configuration list for PBXNativeTarget "SendBird_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE68D0272BC8000091AF5D /* Debug */,
+				FACE68D1272BC8000091AF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACE6897272BC7FF0091AF5D /* Project object */;
+}
